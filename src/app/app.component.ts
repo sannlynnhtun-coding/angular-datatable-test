@@ -13,7 +13,7 @@ export class AppComponent implements AfterViewInit, OnDestroy, OnInit {
 
   dtOptions: DataTables.Settings = {};
   data : any = [];
-
+  title = 'DataTable Test';
    dtTrigger: Subject<any> = new Subject();
 
   ngOnInit(): void {
